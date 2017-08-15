@@ -1,0 +1,58 @@
+body {
+  box-sizing: border-box;
+  margin: auto;
+  min-width: 320px;
+  padding: 20px;
+  width: 100%; }
+
+@media screen and (min-width: 780px) {
+  body {
+    width: 100%;
+    max-width: 900px; } }
+header {
+  display: block;
+  background-color: #e74916;
+  overflow: hidden;
+  padding: 20px; }
+  header img {
+    width: 100px;
+    float: left; }
+  header nav {
+    float: right;
+    margin: auto; }
+    header nav a {
+      font-size: 20px;
+      margin: 5px;
+      color: #fff;
+      text-decoration: none; }
+      header nav a:visited {
+        color: #fff; }
+
+main {
+  display: block; }
+  main #about {
+    display: block; }
+    @media screen and (max-width: 779px) {
+      main #about article {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        padding: 20px; }
+      main #about aside {
+        box-sizing: border-box;
+        display: block;
+        width: 100%; } }
+    @media screen and (min-width: 780px) {
+      main #about article {
+        box-sizing: border-box;
+        width: 500px;
+        padding: 20px;
+        float: left; }
+      main #about aside {
+        box-sizing: border-box;
+        width: 240px;
+        float: right; }
+        main #about aside img {
+          vertical-align: middle; } }
+
+/*# sourceMappingURL=main.css.map */

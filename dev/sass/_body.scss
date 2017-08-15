@@ -1,0 +1,38 @@
+main {
+    display: block;
+
+    #about {
+        display: block;
+
+        @media screen and (max-width: 779px) {
+            article {
+                box-sizing: border-box;
+                display: block;
+                width: 100%;
+                padding: 20px;
+            }
+            aside {
+                box-sizing: border-box;
+                display: block;
+                width: 100%;
+            }
+        }
+
+        @media screen and (min-width: 780px) {
+            article {
+                box-sizing: border-box;
+                width: 500px;
+                padding: 20px;
+                float: left;
+            }
+            aside {
+                box-sizing: border-box;
+                width: 240px;
+                float: right;
+                img {
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
