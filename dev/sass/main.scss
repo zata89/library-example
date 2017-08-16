@@ -1,4 +1,5 @@
 body {
+    font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
     margin: auto;
     min-width: 320px;
@@ -15,3 +16,4 @@ body {
 
 @import "_header";
 @import "_body";
+@import "_footer";

@@ -16,6 +16,9 @@ header {
             margin: 5px;
             color: #fff;
             text-decoration: none;
+            &:hover {
+                font-weight: bolder;
+            }
             &:visited {
                 color: #fff;
             }
