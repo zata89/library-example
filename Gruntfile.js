@@ -27,7 +27,7 @@ module.exports = function(grunt) {
       dev: {
           files: [{
             expand: true,
-            cwd: 'dev/html',
+            cwd: 'dev/processedHtml',
             src: ['**/*.html'],
             dest: 'public'
         }]
@@ -58,11 +58,11 @@ module.exports = function(grunt) {
         options: {
           patterns: [
             {
-              match: 'http://localhost:9001',
+              match: /http\:\/\/localhost\:9001/g,
               replacement: ''
             },
             {
-              match: '.css',
+              match: /\.css/g,
               replacement: '.min.css'
             }
           ]
